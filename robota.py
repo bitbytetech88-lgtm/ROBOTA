@@ -13,7 +13,7 @@ if sys.platform == "win32":
 app = Flask(__name__)
 
 # ── Groq API Key ──────────────────────────────────────────────
-GROQ_API_KEY = "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"   # ← paste your new Groq key here
+GROQ_API_KEY = "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"   # ← paste your new Groq key here
 
 LANGUAGE_CONFIG = {
     "en": {"name": "English",  "tts_voice": "en-US-AriaNeural"},
